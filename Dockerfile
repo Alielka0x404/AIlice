@@ -7,7 +7,7 @@ RUN apt-get install -y wget \
     && rm google-chrome-stable_current_amd64.deb \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/myshell-ai/AIlice.git
+RUN git clone https://github.com/Alielka0x404/AIlice.git
 
 RUN python3 -m venv /opt/venv
 ENV PATH="/opt/venv/bin:${PATH}"
