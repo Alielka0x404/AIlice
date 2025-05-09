@@ -100,7 +100,7 @@ Key technical features of Ailice include:
 Install and run Ailice with the following commands. Once Ailice is launched, use a browser to open the web page it provides, a dialogue interface will appear. Issue commands to Ailice through the conversation to accomplish various tasks. For your first use, you can try the commands provided in the [COOL things we can do](#cool-things-we-can-do) section to quickly get familiarized.
 
 ```bash
-git clone https://github.com/myshell-ai/AIlice.git
+git clone https://github.com/Alielka0x404/AIlice.git
 cd AIlice
 pip install -e .
 ailice_web --modelID=anthropic:claude-3-5-sonnet-20241022 --contextWindowRatio=0.2
